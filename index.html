@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacation Decisions?</title>
+        <script src="js\script.js"></script>
+    </head>
+        <body>
+            <h1 class="title">Vacation Decisions?</h1>
+            <div id = "vacationQuestions" name= "vacationQuestions">
+            <p class = "questions">What type of vacation would you most enjoy? Musical, Tropical, or Adventurous?</p>
+            <input type = "text" id = "vacationInput" name = "vacationInput" /><br>
+            <p class = "questions">How many people will be traveling with you? 1-2, 3-5 or 6+?</p>
+            <input type = "text" id = "groupInput" name = "groupInput" /><br>
+            <br>
+            <button id = "button" type = "submit" value = "get" onclick="infoFunction();">Get Suggestion!</button>
+            </div>
+            <div id="results">
+            <p id="suggestion"></p>
+            </div>
+        </body>
+</html>       
